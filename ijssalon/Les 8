@@ -1,1 +1,5 @@
-print ("les 8")
+def bereken_prijs(prijs, korting):
+
+    return prijs - ((prijs / 100) * korting)
+
+print (bereken_prijs (50,10))
